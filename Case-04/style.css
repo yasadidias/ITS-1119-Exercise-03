@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.card-container {
+    width: 100%;
+    height: 90%;
+    border: 2px solid #555;
+    position: relative;
+    overflow-y: auto; 
+}
+
+
+.sticky-header {
+    background-color: #e74c3c; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: sticky; 
+    top: 0;
+    z-index: 10;
+}
+
+
+.content-area {
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+
+.extra-space {
+    height: 800px; 
+}
