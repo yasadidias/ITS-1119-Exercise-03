@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+   
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+}
+
+
+.red { background-color: #ff0000; }
+.green { background-color: #008000; }
+.orange { background-color: #ff4500; }
+.purple { background-color: #800080; }
+.pink { background-color: #ff1493; }
+.blue { background-color: #0000ff; }
+.brown { background-color: #a52a2a; }
+.light-pink { background-color: #ee82ee; }
+.dark-purple { background-color: #4b0082; }
+.yellow { background-color: #ffd700; }
+.teal { background-color: #5f9ea0; }
+.cyan { background-color: #00ffff; }

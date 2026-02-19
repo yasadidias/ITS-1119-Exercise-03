@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    height: 100vh;
+    padding: 20px;
+}
+
+.grid-layout {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+.red { 
+    grid-column: span 2; 
+    background-color: #ff0000; 
+}
+.green { background-color: #008000; }
+.orange { 
+    grid-row: span 3;
+    background-color: #ff4500; 
+}
+.purple { background-color: #800080; }
+.pink { background-color: #ff1493; }
+.blue { 
+    grid-column: span 2; 
+    background-color: #0000ff; 
+}
+.brown { background-color: #a52a2a; }
+.dark-purple { 
+    grid-column: span 2; 
+    background-color: #4b0082; 
+}
